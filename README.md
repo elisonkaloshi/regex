@@ -13,7 +13,7 @@
 
 `e` -> filter emails from the file
 
-`ip` -> filter ip addresses from the file
+`i` -> filter ip addresses from the file
 
 `g` -> filter guid 
 
