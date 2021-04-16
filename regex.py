@@ -22,7 +22,6 @@ args = parser.parse_args()
 
 def filter_using_regex(regex_code):
     regex = re.compile(regex_code)
-    print(regex)
 
     for line in open("top-secret-file.txt"):
         for match in re.finditer(regex, line):
